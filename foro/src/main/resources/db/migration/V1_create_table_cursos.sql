@@ -1,0 +1,8 @@
+CREATE TABLE cursos (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    activo BIT(1) NOT NULL,
+    categoria ENUM('JAVA', 'PHP', 'JAVASCRIPT', 'ANGULAR', 'REACT','LARAVEL','IA') NOT NULL,
+    name VARCHAR(255) NOT NULL
+);
+
+
